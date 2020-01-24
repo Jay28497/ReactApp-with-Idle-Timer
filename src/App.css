@@ -4,13 +4,6 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -25,14 +18,60 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #09d3ac;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(56, 115, 117);
+}
+
+.footer {
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(56, 115, 117);
+}
+
+.loginbox {
+  width: 30%;
+  height: 500px;
+  background-image: radial-gradient(circle, rgb(20, 11, 148) 0%, rgb(50, 150, 216) 100%);
+  margin: 20px 0px;
+}
+
+.loginhead {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 50px;
+}
+
+button {
+  width: 100px;
+}
+
+.btnholder {
+  text-align: center;
+}
+
+label {
+  color: whitesmoke;
+}
+
+.mgntop {
+  margin-top: 30px;
+}
+
+body{
+  background-color: rgb(14, 4, 4);
+}
+
+#SecondsUntilExpire { 
+  background-color: yellow; 
 }
